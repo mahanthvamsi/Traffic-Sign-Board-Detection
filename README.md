@@ -19,21 +19,16 @@ Used [WandB](https://wandb.ai/mdhamani/YOLOv5) to log hyperparameters and output
 
 ## TO RUN THE PROJECT
 
-1. **Clone the Repository :**
-    git clone https://github.com/mahanthvamsi/Traffic-Sign-Board-Detection.git
+1. git clone https://github.com/mahanthvamsi/Traffic-Sign-Board-Detection.git
    
-2. **Download the Model**
-Download the [model](https://mega.nz/file/rV4HDQ5b#UfgDAMlVHvfzSr7PquE8HWx_6jhRmDUGBS-qyfIn_oE) and place it in the Traffic-Sign-Board-Detection folder.
+2. Download the [model](https://mega.nz/file/rV4HDQ5b#UfgDAMlVHvfzSr7PquE8HWx_6jhRmDUGBS-qyfIn_oE) and place it in the Traffic-Sign-Board-Detection folder.
 
-3. **Download YOLOv5 :**
-Clone the YOLOv5 repository:
+3. Clone the YOLOv5 repository:
 git clone https://github.com/ultralytics/yolov5.git
 Move the yolov5 folder into Traffic-Sign-Board-Detection.
 
-4. **Replace detect.py :**
-Replace the detect.py file in the yolov5 folder with your custom detect.py file from this repository.
+4. Replace the detect.py file in the yolov5 folder with detect.py file from this repository.
 
-5. **Run the Project :**
-Navigate to the yolov5 folder and run the detection:
+5. Navigate to the yolov5 folder and run the detection:
 cd yolov5
 python detect.py --weights ../best93.pt --source 0
