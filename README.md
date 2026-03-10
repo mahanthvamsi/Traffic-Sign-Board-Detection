@@ -42,7 +42,7 @@ Traffic Sign Board Detection is a computer vision project that performs real-tim
 
 - Python 3.8+
 - [Anaconda](https://www.anaconda.com) or a virtual environment (recommended)
-- The pre-trained model weights file (`best_93.pt`) — download link below
+- The pre-trained model weights file (`best_93.pt`) - download link below
 - Git
 
 ### 1. Clone the repository
@@ -100,7 +100,7 @@ python detect.py --weights ../best_93.pt --source /path/to/image.jpg
 # Save annotated output to file
 python detect.py --weights ../best_93.pt --source video.mp4 --save
 
-# Headless mode (no window — useful for servers)
+# Headless mode (no window - useful for servers)
 python detect.py --weights ../best_93.pt --source video.mp4 --save --no-view
 
 # Custom thresholds
@@ -132,13 +132,13 @@ Training runs and hyperparameter sweeps tracked via [WandB](https://wandb.ai/mdh
 
 ## Dataset
 
-**GTSRB — German Traffic Sign Recognition Benchmark**
+**GTSRB - German Traffic Sign Recognition Benchmark**
 
 | Split | Images | Labels |
 |-------|--------|--------|
 | Training | 39,209 | Labeled |
 | Test | 12,630 | Unlabeled |
-| Classes | 43 | — |
+| Classes | 43 | - |
 
 Full dataset info at [benchmark.ini.rub.de](https://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset).
 
